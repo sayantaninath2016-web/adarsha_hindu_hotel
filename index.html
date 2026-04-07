@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsha Hindu Hotel</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="text-center">
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand text-white">
+                <img src="logo.png" class="rounded-pill" width="100" height="100"> &nbsp;
+                Adarsha Hindu Hotel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#n">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="n" class="collapse navbar-collapse justify-content-end" style="display: flex; gap: 500px;">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><i class="bi bi-file-earmark-person"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link"><i class="bi bi-menu-app"></i> Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link"><i class="bi bi-images"></i> Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-success">
+        <br><br>
+        <button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#a">
+            <i class="bi bi-person-vcard-fill"></i> Contact Us
+        </button>
+        <br><br>
+    </div>
+    <div class="offcanvas offcanvas-end" id="a">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">
+                <i class="bi bi-person-lines-fill"></i> Contact Details
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="contact-info mb-4 text-start">
+                <p>
+                    <i class="bi bi-telephone-fill"></i>
+                    <strong> Phone:</strong><br>
+                    +91-9123456780<br>
+                    +91-9087654321
+                </p>
+                <p>
+                    <i class="bi bi-envelope-fill"></i>
+                    <strong> Email:</strong><br>
+                    info@adarshahinduhotel.com
+                </p>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <strong> Address:</strong><br>
+                    Adarsha Hindu Hotel<br>
+                    12/3 College Street<br>
+                    Near College Street<br>
+                    Kolkata, West Bengal 700073<br>
+                    India
+                </p>
+            </div>
+            <button class="btn btn-primary w-100">
+                <i class="bi bi-send-fill"></i> Contact Us
+            </button>
+        </div>
+    </div>
+    <div id="home"><br><br>
+        <div class="d-flex justify-content-btween m-5" style="gap: 500px;">
+            <h1>A hotel ispired by <br>Bibhutibhushan Bandopadhyay's <br>
+                novel "Adarsha Hindu Hotel" <br>
+                and Hajari Thakur's dream.</h1>
+            <img src="author.jpg" class="img rounded-circle" width="300px">
+        </div>
+        <h2 class="text-center bg-warning p-3">
+            Hajari Thakur’s <span class="text-success"> Adarsha Hindu Hotel</span>
+        </h2>
+        <div id="car" class="carousel slide text-center" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#car" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#car" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#car" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="food1.jpg" class="img thumbnail" height="500" width="500"><br><br>
+                    <h3 class="bg-warning text-center p-3">Shorshe Murgir Tel Jhal</h3>
+                </div>
+                <div class="carousel-item">
+                    <img src="food2.jpg" class="img thumbnail" height="500" width="500"><br><br>
+                    <h3 class="bg-warning text-center p-3">Shorshe Ilish Bhapa</h3>
+                </div>
+                <div class="carousel-item">
+                    <img src="food3.jpg" class="img thumbnail" height="500" width="500"><br><br>
+                    <h3 class="bg-warning text-center p-3">Niramish Mutton Kosha</h3>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#car" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" style="color: black;"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#car" data-bs-slide="next">
+                <span class="carousel-control-next-icon" style="color: black;"></span>
+            </button>
+        </div>
+    </div>
+    <div id="about">
+        <div class="text-center m-3">
+            <h1> Hajari Thakur’s <span class="text-success">Adarsha Hindu Hotel</span></h1>
+            <h4>College Street, Kolkata </h4>
+            <h5 style="font-style: italic;"> A trusted place for quality meals and comfortable rest at reasonable
+                prices.</h5>
+            <h3 style="font-family: monospace;">Come, visit, and experience it yourself!</h3>
+            <br><br>
+            <h1><u>Our Story</u></h1>
+            <p>
+                Adarsha Hindu Hotel is inspired by the journey and values of Hajari Thakur,the protagonist of author
+                Bibhutibhushan Bandopadhyay's novel "Adarsha Hindu Hotel" whose dedication to honest cooking and
+                discipline made his humble establishment a symbol of trust.
+            </p>
+            <p>
+                We bring that same spirit to our kitchen, serving authentic Bengali meals prepared with care,
+                simplicity, and tradition.
+            </p>
+            <p>
+                Our aim is to offer a warm, homely dining experience where every guest feels welcomed and satisfied.
+            </p>
+        </div>
+        <br><br>
+    </div>
+    <div id="menu">
+        <h4 class="text-center">We are Pleased to Serve You with...</h4><br><br>
+        <ul style="list-style: none;">
+            <li style="font-weight: bold;">Shorshe Murgir Tel Jhal...........................399-/- <img src="food1.jpg"
+                    class="img rounded-pill" width="50" height="50"></li><br>
+            <li style="font-weight: bold;">Shorshe Ilish Bhapa...............................999-/- <img src="food2.jpg"
+                    class="img rounded-pill" width="50" height="50"></li><br>
+            <li style="font-weight: bold;">Niramish Mutton Kosha.............................899-/- <img src="food3.jpg"
+                    class="img rounded-pill" width="50" height="50"></li><br>
+        </ul>
+        <label style="font-weight: bold;">For online delivery</label> <button class="btn btn-success text-white"
+            data-bs-toggle="modal" data-bs-target="#mod">Order Here</button>
+        <div class="modal fade" id="mod">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="bg-success text-white p-3">Please Fill This Form to Order Your Food</h4>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-floating">
+                                <input type="text" class="form-control">
+                                <label for="">Enter Name</label>
+                            </div><br>
+                            <div class="form-floating">
+                                <input type="email" class="form-control">
+                                <label for="">Enter Email</label>
+                            </div> <br>
+                            <div class="form-floating">
+                                <input type="password" class="form-control">
+                                <label for="">Enter Password</label>
+                            </div> <br>
+                            <div class="form-floating">
+                                <input type="number" class="form-control">
+                                <label for="">Enter Phone Number</label>
+                            </div> <br>
+                            <div class="form-floating">
+                                <textarea class="form-control">Enter Address</textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success">Submit</button>
+                        <button class="btn btn-secondary">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <div id="gallery">
+        <h1 class="bg-success text-center text-white p-3">A Glimpse of Our Food, Moments & Ambience</h1>
+        <div class="card">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="Bibhutibhushan_Bandopadhyay.jpg" class="img thumbnail" width="200">
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success text-white">Author Bibhutibhushan Bandopadhyay</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="hotel1.webp" class="img thumbnail" width="400">
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success text-white">Ambience</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="hotel2.jpg" class="img thumbnail" width="450">
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-success text-white">Wall Art</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
